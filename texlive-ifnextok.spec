@@ -1,3 +1,9 @@
+# revision 23379
+# category Package
+# catalog-ctan /macros/latex/contrib/ifnextok
+# catalog-date 2011-06-27 20:36:28 +0200
+# catalog-license lppl1.3
+# catalog-version 0.3
 Name:		texlive-ifnextok
 Version:	0.3
 Release:	1
@@ -55,6 +61,7 @@ source.
 %doc %{_texmfdistdir}/source/latex/ifnextok/makedoc.cfg
 %doc %{_texmfdistdir}/source/latex/ifnextok/srcfiles.tex
 %doc %{_texmfdistdir}/source/latex/ifnextok/testIfNT.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ source.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
