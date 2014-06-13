@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-ifnextok
 Version:	0.3
-Release:	6
+Release:	7
 Summary:	Utility macro: peek ahead without ignoring spaces
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifnextok
