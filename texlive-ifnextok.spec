@@ -1,6 +1,6 @@
 Name:		texlive-ifnextok
 Version:	23379
-Release:	1
+Release:	2
 Summary:	Utility macro: peek ahead without ignoring spaces
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifnextok
