@@ -3,7 +3,7 @@ Version:	23379
 Release:	2
 Summary:	Utility macro: peek ahead without ignoring spaces
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifnextok
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ifnextok
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifnextok.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifnextok.doc.r%{version}.tar.xz
